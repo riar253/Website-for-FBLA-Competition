@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<header>
+  <div class="container">
+    <h2 class="logo"> Highflyer Airline </h2>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="flightSchedules.html">Flight Schedules</a></li>
+        <li><a href="frequentFlyerProgram.html">Frequent Flyers Program</a></li>
+        <li><a href="socialMedia.html">Social Media</a></li>
+        <li><a href="about.html">About Us</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<style>
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+body {
+	margin: 0;
+	background: rgb(219, 213, 232);
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 800;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+  background: rgb(177, 155, 250);
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 3px 0;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+
+  position: relative;
+}
+
+nav a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #444;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+p.largeHeader{
+  font-family: "Times New Roman";
+  font-size: 100px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+}
+
+
+
+
+
+.simpleText{
+  font-family: "Times New Roman";
+  font-size: 25px;
+  font-weight: normal;
+  color: black;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: center;
+}
+
+.dot2 {
+  height: 400px;
+  width: 400px;
+  background-color: rgb(120, 55, 173);
+  border-radius: 50%;
+  display: inline-block;
+
+}
+.container1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.label1{
+  font-size: 25px;
+  font-color: black;
+  text-align: center;
+}
+* {box-sizing:border-box}
+</style>
+
+<body>
+  <p class="largeHeader"> About Us </p>
+  <p class="simpleText"> When it comes to elevating the journey of the modern traveler we're proud to once again show the world how we risen to the
+     challenge. The launch of our retrofitted airbus interior and reinvented guest experience is a significant milestone in our journey. It symbolizes
+      our most impactful, guest-facing moment today. Through thoughtful touches, meaningful west coast partnerships, and state of the art tech, we promise
+       to bring the best quality of flying straight to you. Fresh, healthy and seasonal aren’t just delicious buzzwords, they are a west coast way of life and
+       the inspiration behind our new inflight menus. We are also plugged in to your tech related needs with our internet and satellite that are 20
+       times faster than our original wifi system and the most free movies in the sky. By levitating the journey of the modern traveler we're proud
+       to once again show the world how we've risen to the challenge. </p>
+
+  <p class="largeHeader"> Join Our Team </p>
+
+
+  <div style="text-align: center">
+    <form action="thanks.html">
+      <label class="label1" for="fname" >Name: </label>
+      <input type="text" id="fname" name="fname" style="height:40px; width:200px; font-size:14pt;"><br><br>
+      <label class="label1" for="fname" >Email: </label>
+      <input type="text" id="fname" name="fname" style="height:40px; width:200px;font-size:14pt;"><br><br><br>
+      <label class="label1" for="fname" >Please attach your CV</label><br><br>
+      <label class="label1" for="fname" >Select a file:</label>
+      <input type="file" id="fname" name="myfile" style="height:50px; width:300px;font-size:14pt;"><br><br>
+      <input type="submit" id="fname" style="height:50px; width:200px; font-size:14pt;">
+      <br>
+      <br>
+      <br>
+    </form>
+  </div>
+</body>
+</html>
